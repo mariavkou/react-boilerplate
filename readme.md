@@ -61,3 +61,8 @@ npm i -D html-webpack-plugin
 npm run build
 open dist/index.html
 ```
+
+#### Update the bundle with webpack's watch mode
+```
+npm run dev
+```
