@@ -28,9 +28,9 @@ $npm i -D @babel/core @babel/cli @babel/preset-env
 
 #### How to run babel:
 ```
-$node_modules/.bin/babel ./src/greet.js
-$(npm bin)/babel ./src/greet.js
-$(npm bin)/babel ./src/greet.js --presets=@babel/preset-env
+$node_modules/.bin/babel <js-file>
+$(npm bin)/babel <js-file>
+$(npm bin)/babel <js-file> --presets=@babel/preset-env
 ```
 
 #### weback --> to bundle our JavaScript
@@ -39,4 +39,14 @@ $(npm bin)/babel ./src/greet.js --presets=@babel/preset-env
 #### so to work together, we install the babel-loader and configure accordingly the webpack.config.js
 ```
 npm i -D babel-loader
+```
+
+#### Install React (-S: to save as runtime dependencies)
+```
+npm i -S react react-dom prop-types
+```
+
+#### Configure babel for React with preset-react
+```
+npm i -D @babel/preset-react
 ```
