@@ -50,3 +50,14 @@ npm i -S react react-dom prop-types
 ```
 npm i -D @babel/preset-react
 ```
+
+#### Inject a JS bundle into HTML with the HtmlWebpackPlugin
+```
+npm i -D html-webpack-plugin
+```
+
+#### so now our html file can be created!
+```
+npm run build
+open dist/index.html
+```
